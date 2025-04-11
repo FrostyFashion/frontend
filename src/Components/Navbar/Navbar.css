@@ -4,6 +4,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 1rem 5rem;
+  background: linear-gradient(to right, rgb(202, 163, 247), #ff4141);
   background-color: #ff4141;
 }
 .nav-logo {

@@ -5,6 +5,7 @@ import ShopCategory from "./Pages/ShopCategory";
 import Product from "./Pages/ShopCategory";
 import Cart from "./Pages/Cart";
 import Auth from "./Pages/Auth";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/cart" element={<Cart />} />
           <Route path="/auth" element={<Auth />} />
         </Routes>
+        <Footer />
       </Onion>
     </div>
   );

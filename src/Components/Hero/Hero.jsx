@@ -9,8 +9,8 @@ const Hero = () => {
         <h2>selfless@frosty.onion</h2>
         <div>
           <div className="hand-icon">
+            <img src={handIcon} alt="hand icon" />
             <p>new</p>
-            <img className="" src={handIcon} alt="hand icon" />
           </div>
           <p>collections</p>
           <p>for everyone</p>
