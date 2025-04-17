@@ -1,12 +1,12 @@
 .offer {
-  width: 90%;
-  height: 80vh;
+  width: 85%;
+  height: auto;
   display: flex;
   align-items: center;
-  margin: auto;
-  padding: 0 140px;
+  justify-content: space-around;
   margin: 100px auto;
-  background: linear-gradient(180deg, #fde1ff 0%, #e1ffea22 60%);
+  padding: 0 2rem;
+  background: linear-gradient(180deg, #fae3fc 0%, #e1ffea5d 60%);
 }
 .offer-left {
   flex: 1;
@@ -45,5 +45,6 @@
   padding-top: 50px;
 }
 .offer-right img {
-  width: 400px;
+  width: 350px;
+  margin-bottom: 2rem;
 }

@@ -10,7 +10,7 @@ const Footer = () => {
     <div className={style.footer}>
       <div className={style.footerLogo}>
         <img src={footerLogo} alt="logo" />
-        <p>my@shop.onion</p>
+        <p>frostyFashion</p>
       </div>
       <ul className={style.footerLinks}>
         <li>Company</li>
@@ -32,7 +32,7 @@ const Footer = () => {
       </div>
       <div className={style.copyright}>
         <hr />
-        <p>All rights reserve &copy; 2025@copyright.onion</p>
+        <p>All rights reserve &copy; 2025 copyright@frosty.onion</p>
       </div>
     </div>
   );
