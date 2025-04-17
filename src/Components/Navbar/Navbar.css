@@ -4,8 +4,8 @@
   align-items: center;
   justify-content: space-between;
   padding: 1rem 5rem;
-  background: linear-gradient(to right, rgb(202, 163, 247), #ff4141);
-  background-color: #ff4141;
+  background-color: white;
+  box-shadow: 1px 1px 2px black;
 }
 .nav-logo {
   display: flex;
@@ -20,7 +20,7 @@
   font-size: 1.3rem;
   font-weight: 800;
   font-family: monospace;
-  color: white;
+  color: black;
 }
 .nav-list {
   min-width: 30%;
@@ -35,14 +35,14 @@
 .nav-list a {
   text-decoration: none;
   font-size: 1rem;
-  color: white;
+    color: black;
 }
 .nav-list hr {
   border: none;
   width: 80%;
   height: 3px;
   border-radius: 10px;
-  background-color: white;
+  background-color: black;
 }
 .auth-cart {
   display: flex;
